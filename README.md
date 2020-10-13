@@ -23,6 +23,14 @@ This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https:/
 
 ### [String #2](https://Hellbot2.hellboyop.repl.run)
 
+### Inspired by team #Cobra (Dark Cobra userbot..❤)
+
+Credit of the plugins goes to their respective owner
+
+Once again aren't responsible for any account bans...!!
+
+## Use on your own risk
+
 ## The Normal Way
 
 Simply clone the repository and run the main file:
