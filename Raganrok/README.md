@@ -26,8 +26,8 @@ This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https:/
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/HellBoy-OP/HellBot
-cd HellBot
+git clone https://github.com/HellBoy-Aaryan/Raganrok
+cd Raganrok
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
