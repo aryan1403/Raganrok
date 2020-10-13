@@ -71,6 +71,11 @@
       "value": "",
       "required": false
     },
+    "OCR_SPACE_API_KEY": {
+      "description": "Register an account on ocr.space to get this value(API key)....",
+      "value": "",
+      "required": false
+    },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
       "value": ""
