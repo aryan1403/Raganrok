@@ -27,6 +27,15 @@ Just click on the above button which will direct you to the deployment page of h
 
 ### Inspired by team #Cobra (Dark Cobra userbot..❤)
 
+## Credits
+
+1. Dark Cobra userbot(https://github.com/DARK-COBRA/DARKCOBRA/)
+2. Uniborg
+3. Friday
+4. Cat userbot
+5. Telebot
+6. Paper plane userbot
+
 Credit of the plugins goes to their respective owner
 
 Once again aren't responsible for any account bans...!!
