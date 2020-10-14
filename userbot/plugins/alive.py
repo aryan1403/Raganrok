@@ -4,7 +4,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork User"
-PM_IMG = "https://telegra.ph/file/f34675b4e94d4290c0b6b.mp4"
+PM_IMG = "https://telegra.ph/file/0e00f9e103c4a21ed35a5.jpg"
 pm_caption = "🔱 **Ɽǟɢǟռօʀӄɮð† Is Online** 🔱\n\n"
 
 pm_caption += f"🔸🔹 **ᎷᎽ ᏰᏫᏕᏕ**           :   {DEFAULTUSER}\n"
@@ -15,9 +15,9 @@ pm_caption += "🔸🔹 σffι¢ιαℓ ¢нαииєℓ   :   [ᴊᴏɪɴ](https
 
 pm_caption += "🔹🔸 σffι¢ιαℓ gяσυρ     :   [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
-pm_caption += "🔸🔹 ℓι¢єиѕє            :   [ӀíϲҽղՏҽ](https://github.com/HellBoy-OP/HellBot/blob/master/LICENSE)\n"
+pm_caption += "🔸🔹 ℓι¢єиѕє            :   [ӀíϲҽղՏҽ](https://github.com/HellBoy-Aaryan/Raganork/blob/master/LICENSE)\n"
 
-pm_caption += "🔹🔸 ¢σρуяιgнт          :   [HellBot-Owner](https://github.com/HellBoy-OP)\n"
+pm_caption += "🔹🔸 ¢σρуяιgнт          :   [Raganork-Owner](https://github.com/HellBoy-Aaryan)\n"
 
 pm_caption += " [...▄███▄███▄\n....█████████\n.......▀█████▀\n............▀█▀\n](https://t.me/Raganork_Official)\n"
 #@command(outgoing=True, pattern="^.alive$")
