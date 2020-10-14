@@ -29,7 +29,7 @@ Just click on the above button which will direct you to the deployment page of h
 
 ## Credits
 
-1. Dark Cobra userbot(https://github.com/DARK-COBRA/DARKCOBRA/)
+1. [Dark Cobra](https://github.com/DARK-COBRA/DARKCOBRA/)
 2. Uniborg
 3. Friday
 4. Cat userbot
