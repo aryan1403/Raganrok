@@ -17,7 +17,7 @@ This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https:/
 
 [![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hellboy-Aaryan/Raganrok/)
 
-Just click on the above button which will direct you to the deployment page of heroku..where you have to fill some requited credentials..video tutorial will be released soon...
+Just click on the above button which will direct you to the deployment page of heroku..where you have to fill some required credentials..video tutorial will be released soon...
 
 # Generate String Session From Below Links:-
 
