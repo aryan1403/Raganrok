@@ -30,7 +30,7 @@ from userbot.utils import admin_cmd
 PP_TOO_SMOL = "`The image is too small`"
 PP_ERROR = "`Failure while processing the image`"
 NO_ADMIN = "`I am not an admin!! Chutiya Sala`"
-NO_PERM = "`I don't have sufficient permissions! Ask The Owner To gibe me Rights😞`"
+NO_PERM = "`I don't have sufficient permissions! Ask The Owner To give me Rights😞`"
 NO_SQL = "`Running on Non-SQL mode!`"
 
 CHAT_PP_CHANGED = "`Chat Picture Changed`"
@@ -143,7 +143,7 @@ async def promote(promt):
     try:
         await promt.client(
             EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Promoted Successfully! Abb Nacho Bencho ðŸ¥³`")
+        await promt.edit("`Promoted the user Successfully!`")
 
     # If Telethon spit BadRequestError, assume
     # we don't have Promote permission
@@ -175,7 +175,7 @@ async def demote(dmod):
 
     # If passing, declare that we're going to demote
     await dmod.edit("`Demoting...`")
-    rank = "admeme"  # dummy rank, lol.
+    rank = "nibba!"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
     if user:
@@ -281,7 +281,7 @@ async def nothanos(unbon):
         return
 
     # If everything goes well...
-    await unbon.edit("`Unbanning...`")
+    await unbon.edit("`Unbanning user...`")
 
     user = await get_user_from_event(unbon)
     user = user[0]
@@ -293,7 +293,7 @@ async def nothanos(unbon):
     try:
         await unbon.client(
             EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
-        await unbon.edit("```Unbanned Successfully. One more chance given to the user.```")
+        await unbon.edit("```Unbanned Successfully. One more chance given to the user expecting for a good Outcome!```")
 
         if BOTLOG:
             await unbon.client.send_message(
