@@ -30,10 +30,10 @@ else:
             api_id=Var.APP_ID,
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
-        print("Initialisation of Raganrok finished with no errors")
-        print("Starting Raganrok")
+        print("Initialisation of Raganork finished with no errors")
+        print("Starting Raganork...")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
-        print("Raganrok Startup Completed")
+        print("Raganrok Startup Completed!!")
     else:
         bot.start()
     
@@ -49,7 +49,7 @@ for name in files:
 
 import userbot._core
 
-print("Congratulations 🎖️ ,Raganrok is Online Enjoy 😉 Join Suppot Group for any help..")
+print("Congratulations 🤩🥳 ,Raganork is Online! Enjoy 😉 Join Support Group for any help.. Type .alive to check whether the bot is working or not")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
