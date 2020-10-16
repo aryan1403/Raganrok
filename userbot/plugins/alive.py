@@ -13,17 +13,17 @@ pm_caption += "🔥 𝙎𝙮𝙨𝙩𝙚𝙢 𝙎𝙩𝙖𝙩𝙨 🔥\n"
 
 pm_caption += "✨ Os                                    :Kali Linux 😈😈\n"
 
-pm_caption += "💫 тєℓєтнσи νєяѕισи             :   1.15.1 \n"
+pm_caption += "💫 тєℓєтнσи νєяѕισи              :   1.15.1 \n"
 
-pm_caption += "💫 Ɽǟɢǟռօʀӄɮð† νєяѕισи   : 2.0 \n"
+pm_caption += "💫 Ɽǟɢǟռօʀӄɮð† νєяѕισи: 2.0 \n"
 
-pm_caption += "💫 ρунтσи                            :3.8.5\n"
+pm_caption += "💫 ρунтσи                                                        :3.8.5\n"
 
 pm_caption += "✨ σffι¢ιαℓ ¢нαииєℓ           :   [ᴊᴏɪɴ](https://t.me/Raganork_Official)\n"
 
-pm_caption += "✨ σffι¢ιαℓ gяσυρ               :   [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
+pm_caption += "✨ σffι¢ιαℓ gяσυρ                :   [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
-pm_caption += "✨ ℓι¢єиѕє                            :   [ӀíϲҽղՏҽ](https://github.com/HellBoy-Aaryan/Raganork/blob/master/LICENSE)\n"
+pm_caption += "✨ ℓι¢єиѕє                               :   [ӀíϲҽղՏҽ](https://github.com/HellBoy-Aaryan/Raganork/blob/master/LICENSE)\n"
 
 pm_caption += "✨ ¢σρуяιgнт           :   [Raganork-Owner](https://github.com/HellBoy-Aaryan)\n"
 
