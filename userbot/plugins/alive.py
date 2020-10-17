@@ -15,9 +15,9 @@ pm_caption += "⚡️⚡️**Os [Linux]**⚡️⚡️: ʟɪɴᴜx ᴍᴀɴᴅʀ�
 
 pm_caption += "😈😈**Ɽǟɢǟռօʀӄɮð†**😈😈: 2.0\n"
 
-pm_caption += "✨✨**¢нαииєℓ**✨✨: [ᴊᴏɪɴ](https://t.me/HellBot_Official)\n"
+pm_caption += "✨✨**¢нαииєℓ**✨✨: [ᴊᴏɪɴ](https://t.me/Raganork_Official)\n"
 
-pm_caption += "⚜️⚜️**gяσυρ**⚜️⚜️: [ᴊᴏɪɴ](https://t.me/HellBot_Official_Chat)\n"
+pm_caption += "⚜️⚜️**gяσυρ**⚜️⚜️: [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
 pm_caption += "💫💫**ᴄᴜʀʀᴇɴᴛ ᴅɪʀᴇᴄᴛᴏʀʏ**💫💫: ᴋᴀʟɪ_ᴘᴀʀʀᴏᴛ_ᴛᴇʀᴍɪɴᴀʟ\n"
 
