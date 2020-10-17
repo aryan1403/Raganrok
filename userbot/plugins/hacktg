@@ -1,0 +1,109 @@
+"""Emoji
+Available Commands:
+.hacktg
+Made by : @HELLBOY_OP take credits if u gonna kang this LOL! u noobs
+"""
+
+
+
+from telethon import events
+
+
+
+import asyncio
+
+
+
+
+
+
+
+
+
+
+
+@borg.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+
+
+
+async def _(event):
+
+
+
+    if event.fwd_from:
+
+
+
+        return
+
+
+
+    animation_interval = 2
+
+
+
+    animation_ttl = range(0, 15)
+
+
+
+    input_str = event.pattern_match.group(1)
+
+
+
+    if input_str == "hacktg":
+
+
+
+        await event.edit(input_str)
+
+
+
+        animation_chars = [
+
+        
+
+            "Attacking person Account with bruetforce  ",
+
+            " Checking Server Security !!  ",
+            
+            " Lol! Security is strong as Hell! Performing Bruetforce Attack",
+
+            "Hacking... 0%\n[░░░░░░░░░░░░░░░░░░░░]\n`Looking for  Port...`\n",
+
+            "Hacking... 12.07%\n[██░░░░░░░░░░░░░░░░░░]\n`Local Port 404 Found...`\n",
+
+            "Hacking... 23.63%\n[███░░░░░░░░░░░░░░░░░]\n`Attacking Users Account`\n",
+
+            "Hacking... 37.92%\n[█████░░░░░░░░░░░░░░░]\n`Security is threatened`\n",
+
+            "Hacking... 44.17%\n[███████░░░░░░░░░░░░░]\n`Trying to decompile the password`\n",
+
+            "Hacking... 59.30%\n[█████████░░░░░░░░░░░]\n`User Pasword[eyncrypted]:dej234hgfj12fgj45k6y73asdfgg21`\n",
+
+            "Hacking... 63.86%\n[███████████░░░░░░░░░]\n`Trying to decrypt`\n",
+
+            "Hacking... 75.02%\n[█████████████░░░░░░░]\n`Trying to decrypt...`\n",
+
+            "Hacking... 83.21%\n[███████████████░░░░░]\n`Decryption Successful!!`\n",
+
+            "Hacking... 92.50%\n[█████████████████░░░]\n`Uploading user data to local host`\n",
+
+            "Hacking... 100%\n[████████████████████]\n`Scanning file...`\n",
+
+            "Hacking complete!\nUploading the user Data on Server Port[408]...",
+
+            "Targeted Account Hacked...!\n\n ✅ Data has been successfully uploaded to server Port[408].\nRevealed All private files of the targeted Account \n"
+
+        ]
+
+
+
+        for i in animation_ttl:
+
+
+
+            await asyncio.sleep(animation_interval)
+
+
+
+            await event.edit(animation_chars[i % 15])
