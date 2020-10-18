@@ -7,21 +7,21 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork User"
 PM_IMG = "https://telegra.ph/file/0e00f9e103c4a21ed35a5.jpg"
 pm_caption = "🔥🔥**Ɽǟɢǟռօʀӄɮð† IS ONLINE🔥🔥\n\n"
 
-pm_caption += f"⚔️⚔️**му ℓσя∂**⚔️⚔️: {DEFAULTUSER}\n\n"
+pm_caption += f"⚔️⚔️**му ℓσя∂**⚔️⚔️: {DEFAULTUSER}\n"
 
-pm_caption += "⚡️⚡️**тєℓєтнσи**⚡️⚡️: 1.15.0 \n\n"
+pm_caption += "⚡️⚡️**тєℓєтнσи**⚡️⚡️: 1.15.0 \n"
 
-pm_caption += "⚡️⚡️**Os[Linux]**⚡️⚡️: ʟɪɴᴜx ᴍᴀɴᴅʀɪᴠᴀ \n\n"
+pm_caption += "⚡️⚡️**Os[Linux]**⚡️⚡️: ʟɪɴᴜx ᴍᴀɴᴅʀɪᴠᴀ \n"
 
-pm_caption += "😈😈**Ɽǟɢǟռօʀӄɮð†**😈😈: 2.0\n\n"
+pm_caption += "😈😈**Ɽǟɢǟռօʀӄɮð†**😈😈: 2.0\n"
 
-pm_caption += "✨✨**¢нαииєℓ**✨✨: [ᴊᴏɪɴ](https://t.me/Raganork_Official)\n\n"
+pm_caption += "✨✨**¢нαииєℓ**✨✨: [ᴊᴏɪɴ](https://t.me/Raganork_Official)\n"
 
-pm_caption += "⚜️⚜️**gяσυρ**⚜️⚜️: [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n\n"
+pm_caption += "⚜️⚜️**gяσυρ**⚜️⚜️: [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
-pm_caption += "💫💫**ᴄᴜʀʀᴇɴᴛ ᴅɪʀᴇᴄᴛᴏʀʏ**💫💫: ᴋᴀʟɪ_ᴘᴀʀʀᴏᴛ_ᴛᴇʀᴍɪɴᴀʟ\n\n"
+pm_caption += "💫💫**ᴄᴜʀʀᴇɴᴛ ᴅɪʀᴇᴄᴛᴏʀʏ**💫💫: ᴋᴀʟɪ_ᴘᴀʀʀᴏᴛ_ᴛᴇʀᴍɪɴᴀʟ\n"
 
-pm_caption += "🔥🔥**ᴅᴇᴠᴇʟᴏᴘᴇʀ 🔥🔥: [Raganork-Owner](https://t.me/HELLBOY_OP)\n\n"
+pm_caption += "🔥🔥**ᴅᴇᴠᴇʟᴏᴘᴇʀ 🔥🔥: [Raganork-Owner](https://t.me/HELLBOY_OP)\n"
 
 
 pm_caption += " [...▄███▄███▄\n....█████████\n.......▀█████▀\n............▀█▀\n](https://t.me/HELLBOY_OP)\n"
