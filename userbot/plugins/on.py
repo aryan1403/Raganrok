@@ -30,5 +30,5 @@ async def amireallyalive(lol):
     chat = await lol.get_chat()
     await lol.delete()
     """ For .on command, check if the bot is running.  """
-    await borg.send_file(alive.chat_id, PM_IMG,caption=pm_caption)
+    await borg.send_file(lol.chat_id, PM_IMG,caption=pm_caption)
     await alive.delete() 
