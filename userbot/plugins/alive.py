@@ -9,9 +9,9 @@ pm_caption = "🔥🔥**Ɽǟɢǟռօʀӄɮð† IS ONLINE🔥🔥\n\n"
 
 pm_caption += f"⚔️⚔️**му ℓσя∂**⚔️⚔️: {DEFAULTUSER}\n\n"
 
-pm_caption += "⚡️⚡️**тєℓєтнσи**⚡️⚡️: 1.15.0 \n"
+pm_caption += "⚡️⚡️**тєℓєтнσи**⚡️⚡️: 1.15.0 \n\n"
 
-pm_caption += "⚡️⚡️**Os [Linux]**⚡️⚡️: ʟɪɴᴜx ᴍᴀɴᴅʀɪᴠᴀ \n\n"
+pm_caption += "⚡️⚡️**Os[Linux]**⚡️⚡️: ʟɪɴᴜx ᴍᴀɴᴅʀɪᴠᴀ \n\n"
 
 pm_caption += "😈😈**Ɽǟɢǟռօʀӄɮð†**😈😈: 2.0\n\n"
 
