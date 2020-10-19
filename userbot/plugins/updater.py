@@ -105,7 +105,7 @@ async def upstream(ups):
     if force_update:
         await ups.edit('Force-Syncing to latest stable userbot code, please wait master...😅😅')
     else:
-        await ups.edit('Updating userbot, please wait....you arey best boss🤗😇')
+        await ups.edit('Updating userbot, please wait....you are best boss🤗😇')
     if HEROKU_API_KEY is not None:
         import heroku3
         heroku = heroku3.from_key(HEROKU_API_KEY)
@@ -143,7 +143,7 @@ async def upstream(ups):
             repo.git.reset("--hard", "FETCH_HEAD")
         reqs_upgrade = await update_requirements()
         await ups.edit('`Successfully Updated!\n'
-                       'Bot is restarting... Wait for at least 5 mins..!`')
+                       'Booting up the bot ... Wait for at least 5 mins..!`')
         # Spin a new instance of bot
         args = [sys.executable, "-m", "userbot"]
         execle(sys.executable, *args, environ)
