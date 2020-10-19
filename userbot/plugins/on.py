@@ -31,5 +31,5 @@ async def amireallyalive(lol):
     chat = await lol.get_chat()
     await lol.delete()
     """ For .on command, check if I am on(alive) fire or not.  """
-    await borg.send_file(lol.chat_id, PM_IMG,caption=on_caption)
+    await borg.send_file(lol.chat_id, PM_IMG,caption=pm_caption)
     await alive.delete()
