@@ -37,15 +37,15 @@ async def _(event):
         
             "**Heroku Connecting To Latest Github Build (HellBoy-Aaryan/RaganarokBot)**",
             "**Build started by user** **{DEFAULTUSER}**",
-            "**Deploy** `535a74f0` **by user** **{MY BOSS}**",
-            "**Restarting Heroku Server...**",
+            "**Deploy** `475a9df0` **by user** **{MY BOSS}**",
+            "**Booting up Heroku Server...**",
             "**State changed from up to starting**",    
             "**Stopping all processes with SIGTERM**",
-            "**Process exited with** `status 143`",
+            "**Process exited with** `status 321`",
             "**Starting process with command** `python3 -m stdborg`",
             "**State changed from starting to up**",
-            "__INFO:Raganarok:Logged in as 557667062__",
-            "__INFO:Raganorak:Successfully loaded all plugins__",
+            "__INFO:Raganork:Logged in as 99524630__",
+            "__INFO:Raganork:Successfully loaded all plugins__",
             "**Build Succeeded**"
 
  ]
