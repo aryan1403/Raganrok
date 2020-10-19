@@ -72,7 +72,7 @@ async def apkr(e):
         app_details += "\n\n<code>Developer :</code> <a href='"+app_dev_link+"'>"+app_dev+"</a>"
         app_details += "\n<code>Rating :</code> "+app_rating.replace("Rated ", "тнР ").replace(" out of ", "/").replace(" stars", "", 1).replace(" stars", "тнР ").replace("five", "5")
         app_details += "\n<code>Features :</code> <a href='"+app_link+"'>View in Play Store</a>"
-        app_details += "\n\n<b>Download : </b> <a href='https://t.me/HellBot_Official'>Request_Here</a>"
+        app_details += "\n\n<b>Download : </b> <a href='https://t.me/Raganork_Official'>Request_Here</a>"
         app_details += "\n\n===> RaganorkBot <==="
         await e.edit(app_details, link_preview = True, parse_mode = 'HTML')
     except IndexError:
