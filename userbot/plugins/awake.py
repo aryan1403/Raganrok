@@ -25,6 +25,12 @@ if ALIVE_PIC is None:
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
+ALIVE_MESSAGE = "**🔱Ɽǟɢǟռօʀӄɮð† Zinda Tha....Zinda Hai....Aur Zinda Rahega🔱 \n\n\n**"
+ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
+ALIVE_MESSAGE += f"`Telethon: TELETHON-15.0.9 \n\n`"
+ALIVE_MESSAGE += f"`Python: PYTHON-3.8.6 \n\n`"
+ALIVE_MESSAGE += "`My Master I Will Serve You Till My Dyno Ends!!☠ \n\n`"
+ALIVE_MESSAGE += f"`Support Channel` : @Raganork_Official \n\n"
 if ALIVE_MESSAGE is None:
    ALIVE_MESSAGE = "**🔱Ɽǟɢǟռօʀӄɮð† Zinda Tha....Zinda Hai....Aur Zinda Rahega🔱 \n\n\n**"
    ALIVE_MESSAGE += "`My Bot Status \n\n\n`"
