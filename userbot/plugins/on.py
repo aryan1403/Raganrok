@@ -21,9 +21,9 @@ on_caption += "⚜️⚜️**gяσυρ**⚜️⚜️   : [ᴊᴏɪɴ](https://t.
 
 on_caption += "💫💫**ᴄᴜʀʀᴇɴᴛ ᴅɪʀᴇᴄᴛᴏʀʏ**💫💫   : ᴋᴀʟɪ_ᴘᴀʀʀᴏᴛ_ᴛᴇʀᴍɪɴᴀʟ\n"
 
-on_caption += "I am here alive with my sweet master till my dyno runs off!!!😎 \n"
+on_caption += "__I am here alive with my sweet master till my dyno runs off!!!😎__ \n"
 
-on_caption += "🔥🔥**ᴅᴇᴠᴇʟᴏᴘᴇʀ 🔥🔥   : [Raganork-Owner](https://t.me/HELLBOY_OP)\n"
+on_caption += "🔥🔥**ᴅᴇᴠᴇʟᴏᴘᴇʀ**🔥🔥   :   [Raganork-Owner](https://t.me/HELLBOY_OP)\n"
 
 
 on_caption += " [...▄███▄███▄\n....█████████\n.......▀█████▀\n............▀█▀\n](https://t.me/HELLBOY_OP)\n"
