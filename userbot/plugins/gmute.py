@@ -9,7 +9,7 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Putting Dick🍆 💦 In Son mouth!!")
+        await event.edit("gmuting the user!!")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -30,7 +30,7 @@ async def startgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Son Can't speek now.... Filled His Mouth With Cum😉")
+        await event.edit("user mouth is closed with tape 😁")
 
 #@command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
@@ -39,7 +39,7 @@ async def endgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Taking Out Dick from Son mouth....\n\n       Today Sex Done😁 ")
+        await event.edit("Unmuting user!!\n\n        ")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -59,7 +59,7 @@ async def endgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Son Feeling Good..... Now speak🍆🍆")
+        await event.edit("now this person can speak")
         
 @command(incoming=True)
 async def watcher(event):
