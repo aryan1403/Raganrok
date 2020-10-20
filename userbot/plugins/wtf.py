@@ -3,29 +3,26 @@
 Available Commands:
 
 .wtf"""
-
+#Creator:@HELLBOY_OP 
+#Kangers stay away!
 from telethon import events
 
 import asyncio
 
 from userbot.utils import admin_cmd
 
-@borg.on(admin_cmd("wtf"))
+@borg.on(admin_cmd(pattern="wtf (.*)", outgoing=True))
 async def _(event):
-    if event.fwd_from:
-        return
-    animation_interval = 0.3
-    animation_ttl = range(0, 5)
-    await event.edit("wtf")
-    animation_chars = [
-            "What",
-            "What The",
-            "What The F",
-            "What The F Brah",
-            "[What The F Brah](https://telegra.ph//file/f3b760e4a99340d331f9b.jpg)"
-        ]
-
-    for i in animation_ttl:
-        	
-        await asyncio.sleep(animation_interval)
-        await event.edit(animation_chars[i %5 ])
+    name = event.pattern_match.group(1)
+    HEll = await edit_or_reply(event, "wtf")
+    await asyncio.sleep(1)
+    await HEll.edit("What ")
+    await asyncio.sleep(1)
+    await HEll.edit("The F")
+    await asyncio.sleep(1)
+    await HEll.edit("What the f ")
+    msg = f"WTF {name}"
+    if name is None:
+        await HEll.client.send_message(event.chat_id, "Wtf", file="https://telegra.ph/file/75a42ef6c5d04719ff494.png")
+    elif name is not None:
+        await HEll.client.send_message(event.chat_id, msg, file="https://telegra.ph/file/75a42ef6c5d04719ff494.png")
