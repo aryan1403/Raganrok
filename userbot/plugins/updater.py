@@ -193,3 +193,11 @@ async def upstream(ups):
         args = [sys.executable, "-m", "userbot"]
         execle(sys.executable, *args, environ)
         return
+
+CMD_HELP.update({
+    'update':
+    ".update\n
+Usage: Checks if the main userbot repository has any updates and shows a changelog if so.\
+\n.update now\n
+\nUsage: Updates your userbot, if there are any updates in the main userbot repository."
+})
