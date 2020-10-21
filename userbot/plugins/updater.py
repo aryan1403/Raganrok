@@ -1,10 +1,6 @@
 Only For Raganrok Userbot
 # Copyright (C) 2019 The Raphielscape Company LLC.
 # Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-# credits to @AvinashReddy3108
-# Rewritten for TeleBot by @xditya
-
 """
 Module Used To Update Raganrok Userbot
 """
@@ -50,7 +46,7 @@ async def updateme_requirements():
         return repr(e)
 
 
-@telebot.on(admin_cmd(pattern="update ?(.*)"))
+@borg.on(admin_cmd(pattern="update ?(.*)"))
 async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
     await ups.edit("`Searching for new updates for Raganrok Userbot...`")
