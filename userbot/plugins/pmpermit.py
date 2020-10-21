@@ -24,14 +24,12 @@ PM_ON_OFF = Config.PM_DATA
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
-CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**YOU HAVE TRESPASSED TO MY MASTERS INBOX** \n`THIS IS ILLEGAL AND REGARDED AS A CRIME`"
-USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot⭕️.`\n**Now GTFO, i'm busy**"
-USER_BOT_NO_WARN = ("`Hello, This is HellBot⚠️.You have found your way here to my master,`"
-                   f"{DEFAULTUSER}'s `inbox. Koi fayda nhi h re dekh... Accha khasa ghar me jake Roti,Bhaji bana yeh sab chale naa kar...\n"
-                    "Leave your Name,Reason and 100 Million $ and hopefully you'll get a reply within 100 light years.`⭕️\n\n"
-                    "❤️ Register Your Request! ❤️\nSend /start To Register Your Request!! 🔥\n"
-                    "⭕️**Now You Are In Trouble So Send** 🔥 `/start` 🔥 **To Start A Valid Conversation!!**⭕️")
-
+CUSTOM_MIDDLE_PMP = str(CUSTOM_PMPERMIT) if CUSTOM_PMPERMIT else "**ᴡʜᴏ ᴀʀᴇ ʏᴏᴜ ᴡʜᴏ ᴀʟʟᴏᴡᴇᴅ ʏᴏᴜ ᴛᴏ ᴘᴍ ᴍʏ ᴍᴀsᴛᴇʀ** \n`ᴍʏ ᴍᴀsᴛᴇʀ ᴡɪʟʟ ᴅᴇᴄɪᴅᴇ ᴡʜᴀᴛ ᴛᴏ ᴅᴏ ᴡɪᴛʜ ʏᴏᴜ ᴛɪʟʟ ᴛʜᴇɴ ᴡᴀɪᴛ`"
+USER_BOT_WARN_ZERO = "`ʏᴏᴜ ᴅɪᴅ'ɴᴛ sᴇᴇ ᴡʜᴀᴛ ɪ sᴀɪᴅ ᴍʏ ᴍᴀsᴛᴇʀ ɪs ᴄᴜʀʀᴇɴᴛʟʏ ᴏғғʟɪɴᴇ ᴅᴏɴᴛ sᴘᴀᴍ.`\n**ɴᴏᴡ sʜᴜᴛ ᴜᴘ.... ᴀɴᴅ ɢᴇᴛ ʟᴏsᴛ**"
+USER_BOT_NO_WARN = ("`ʜᴇʏ, ɪ ᴀᴍ ʀᴀɢᴀɴᴏʀᴋ😈.sᴏʀʀʏ ʙᴜᴛ ʏᴏᴜ ʜᴀᴠᴇ ᴀʀʀɪᴠᴇᴅ ᴀ ᴡʀᴏɴɢ ᴡᴀʏ,`"
+                   f"{DEFAULTUSER}'s `sᴏʀʀʏ, ɪ ᴅᴏɴᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴘᴇᴏᴘʟᴇ ᴀʀᴇ sᴏ ғʀᴇᴇ ᴛʜᴀᴛ ᴛʜᴇʏ ɢᴇᴛ ᴛʜᴇ ᴛɪᴍᴇ ᴛᴏ ᴅᴏ ᴜsᴇʟᴇss ᴄʜᴀᴛs sᴇᴇ ᴍʏ ᴍᴀsᴛᴇʀ's ɪɴʙᴏx ɪᴛ ɪs ғɪʟʟᴇᴅ ᴡɪᴛʜ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴍᴀɪʟs ɢᴏ ᴀɴᴅ ᴅᴏ ʏᴏᴜʀ ᴡᴏʀᴋ ᴅᴏɴ'ᴛ ᴅɪsᴛᴜʀʙ ᴍʏ ᴍᴀsᴛᴇʀ...\n"
+                    "ɪғ ɪᴛ ɪs ᴜʀɢᴇɴᴛ ʟᴇᴀᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ɪᴅ ,ᴅᴇsᴄɪᴘᴛɪᴏɴ ᴀɴᴅ ʀᴇᴀsᴏɴ...ᴀɴᴅ ɪ ʜᴏᴘᴇ ɪғ ʏᴏᴜ ᴀʀᴇ ᴀ ɢᴏᴏᴅ ᴘᴇʀsᴏɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴀ ʀᴇᴘʟʏ ʙᴜᴛ ɪ ᴀᴍ ɴᴏᴛ sᴜʀᴇ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ`⭕️\n\n"
+                  
 
 if Var.PRIVATE_GROUP_ID is not None:
     @borg.on(admin_cmd(pattern="approve ?(.*)"))
@@ -78,13 +76,13 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 924138714:
-            await event.edit("You are tried to block my Creator😡 , now i will sleep for 100 seconds 😴 ")
-            await asyncio.sleep(100)
+          if chat.id == -438670332:
+            await event.edit("ʜᴇʏ, ʏᴏᴜ ɴᴏᴏʙ ʏᴏᴜ  ᴀʀᴇ ᴛʀʏɪɴɢ ᴛᴏ ʙʟᴏᴄᴋ ᴍʏ ᴄʀᴇᴀᴛᴏʀ😡 , sᴇɴᴅɪɴɢ ʏᴏᴜʀ ʀᴇᴘᴏʀᴛ ᴛᴏ ᴍʏ ᴄʀᴇᴀᴛᴏʀ @ʜᴇʟʟʙᴏʏ_ᴏᴘ ʏᴏᴜ ᴀʀᴇ ᴅɪsᴀʙʟᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ ғᴏʀ 𝟼𝟶𝟶 sᴇᴄᴏɴᴅs 😴 ᴅᴏɴ'ᴛ ᴅᴏ ᴛʜᴀᴛ ᴀɢᴀɪɴ ᴏʀ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ʙᴇ ʙᴀɴ ғᴏʀ ᴜsɪɴɢ ᴍᴇ! ᴀsᴋ ᴍʏ ᴄʀᴇᴀᴛᴏʀ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ @ʜᴇʟʟʙᴏʏ_ᴏᴘ ")
+            await asyncio.sleep(600)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit("Tu..😒 nikal pehli fursat me you are blocked now..😠 go find somebody else..fuck off.!!**[{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("ᴛᴜ..😒 ɴɪᴋᴀʟ ᴘᴇʜʟɪ ғᴜʀsᴀᴛ ᴍᴇ ʏᴏᴜ ᴀʀᴇ ʙʟᴏᴄᴋᴇᴅ ɴᴏᴡ..😠 !!**[{}](tg://user?id={})".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
@@ -97,8 +95,11 @@ if Var.PRIVATE_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 924138714:
-            await event.edit("Sorry, I Can't Disapprove My Master")
+          if chat.id == -438670332:
+            await event.edit("ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ ᴅᴏɪɴɢ ʏᴏᴜ ᴋɴᴏᴡ ᴛʜɪs ᴘᴇʀsᴏɴ ʜᴇ ɪs ᴍʏ ᴄʀᴇᴀᴛᴏʀ ɪ ᴄᴀɴ'ᴛ ᴅɪsᴀᴘᴘʀᴏᴠᴇ ᴍʏ ᴄʀᴇᴀᴛᴏʀ")
+            await asyncio.sleep(5)
+            await event.edit("sᴏ, ʏᴏᴜ ᴀʀᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ ғᴏʀ 𝟷𝟶𝟶 sᴇᴄᴏɴᴅs sᴀʏ sᴏʀʀʏ ᴛᴏ ᴍʏ ᴄʀᴇᴀᴛᴏʀ ᴀɴᴅ ʜᴇɴᴄᴇ ᴜ ᴡɪʟʟ ʙᴇ ʀᴇʟᴇᴀsᴇᴅ")
+            await asyncio.sleep(100)
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
@@ -222,15 +223,15 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(924138714)))
+@bot.on(events.NewMessage(incoming=True, from_users=(-438670332)))
 async def hehehe(event):
     if event.fwd_from:
         return
     chat = await event.get_chat()
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
-            pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator he made me..he is the best you know.. @Kraken_The_BadASS **")
+            pmpermit_sql.approve(chat.id, "**ᴍʏ ʙᴏss ɪs ʟᴇɢᴇɴᴅᴀʀʏ🔥**")
+            await borg.send_message(chat, "**ᴍᴇᴇᴛ ʙʏ ʙᴏss @ʜᴇʟʟʙᴏʏ_ᴏᴘ ʜᴇ ᴄʀᴇᴀᴛᴇᴅ ᴍᴇ...... **")
             
             
             
