@@ -31,7 +31,7 @@ USER_BOT_NO_WARN = ("`ʜᴇʏ, ɪ ᴀᴍ ʀᴀɢᴀɴᴏʀᴋ😈.sᴏʀʀʏ ʙ�
                     "ɪғ ɪᴛ ɪs ᴜʀɢᴇɴᴛ ʟᴇᴀᴠᴇ ʏᴏᴜʀ ᴄʜᴀᴛ ɪᴅ ,ᴅᴇsᴄɪᴘᴛɪᴏɴ ᴀɴᴅ ʀᴇᴀsᴏɴ...ᴀɴᴅ ɪ ʜᴏᴘᴇ ɪғ ʏᴏᴜ ᴀʀᴇ ᴀ ɢᴏᴏᴅ ᴘᴇʀsᴏɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴀ ʀᴇᴘʟʏ ʙᴜᴛ ɪ ᴀᴍ ɴᴏᴛ sᴜʀᴇ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ`⭕️\n\n"
                   
 
-    @borg.on(admin_cmd(pattern="approve ?(.*)"))
+    @command(pattern="^.approve ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
            return
