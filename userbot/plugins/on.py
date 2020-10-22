@@ -17,7 +17,7 @@ pm_caption += "😈😈**Ɽǟɢǟռօʀӄɮð†**😈😈   ☞ 2.0\n"
 
 pm_caption += "✨✨**ѕυρρσят ¢нαииєℓ**✨✨   ☞ [ᴊᴏɪɴ](https://t.me/Raganork_Official)\n"
 
-pm_caption += "⚜️⚜️**ѕυρρят gяσυρ**⚜️⚜️   ☞ [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
+pm_caption += "⚜️⚜️**ѕυρρσят gяσυρ**⚜️⚜️   ☞ [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
 pm_caption += "💫💫**ᴄᴜʀʀᴇɴᴛ ᴅɪʀᴇᴄᴛᴏʀʏ**💫💫  ☞  ᴋᴀʟɪ_ᴘᴀʀʀᴏᴛ_ᴛᴇʀᴍɪɴᴀʟ\n"
 
