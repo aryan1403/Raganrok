@@ -55,7 +55,7 @@ async def upstream(ups):
     except InvalidGitRepositoryError as error:
         if conf != "now":
             await ups.edit(f"Hey, did you type update🤔.....Okie..My dear sweet master..🤗\
-            \nPlease do type |.update now| to update your DARK-COBRA😎.")
+            \nPlease do type |.update now| to update your Raganork😎.")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
