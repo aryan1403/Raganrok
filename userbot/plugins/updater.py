@@ -10,6 +10,7 @@ import asyncio
 import sys
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
+from userbot import COMMAND_HAND_LER
 from userbot import CMD_HELP, bot
 from userbot.utils import admin_cmd
 
