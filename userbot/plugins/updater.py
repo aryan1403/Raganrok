@@ -4,24 +4,22 @@
 Module Used To Update Raganrok Userbot
 """
 
+from os import remove, execle, path, makedirs, getenv, environ, execl
+from shutil import rmtree
 import asyncio
 import sys
-from os import environ, execle, path, remove
-
 from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
-
-from userbot import COMMAND_HAND_LER
-
-requirements_path = path.join(
-    path.dirname(path.dirname(path.dirname(__file__))), "requirements.txt"
-)
+from userbot import CMD_HELP, bot
+from userbot.utils import admin_cmd
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 GIT_REPO_NAME = "Raganrok"
 UPSTREAM_REPO_URL = "https://github.com/Hellboy-Aaryan/Raganrok"
 
+requirements_path = path.join(
+    path.dirname(path.dirname(path.dirname(__file__))), 'requirements.txt')
 
 async def gen_chlog(repo, diff):
     ch_log = ""
@@ -70,7 +68,7 @@ async def upstream(ups):
             await ups.edit(
                 f"**Unfortunately, the directory {error} does not seem to be a git repository.\
                 \nOr Maybe it just needs a sync verification with {GIT_REPO_NAME}\
-            \nBut we can fix that by force updating the userbot using** `{COMMAND_HAND_LER}update now`."
+            \nBut we can fix that by force updating the userbot using** `{CMD_HNDLR}update now`."
             )
             return
         repo = Repo.init()
@@ -128,7 +126,7 @@ async def upstream(ups):
             remove("output.txt")
         else:
             await ups.edit(changelog_str)
-        await ups.respond(f"Do `{COMMAND_HAND_LER}update now` to update")
+        await ups.respond(f"Do `{CMD_HNDLR}update now` to update")
         return
 
     if force_updateme:
