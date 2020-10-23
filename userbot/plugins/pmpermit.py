@@ -32,7 +32,7 @@ USER_BOT_NO_WARN = ("`ʜᴇʏ, ɪ ᴀᴍ ʀᴀɢᴀɴᴏʀᴋ😈.sᴏʀʀʏ ʙ�
                   
 if Var.PRIVATE_GROUP_ID is not None:
     @command(pattern="^.approve ?(.*)")
-    async def approve_p_m(event):
+    async def approve_pm(event):
         if event.fwd_from:
            return
         replied_user = await event.client(GetFullUserRequest(event.chat_id))
@@ -67,7 +67,7 @@ if Var.PRIVATE_GROUP_ID is not None:
 
 
     @command(pattern="^.block ?(.*)")
-    async def approve_p_m(event):
+    async def approve_pm(event):
         if event.fwd_from:
             return
         replied_user = await event.client(GetFullUserRequest(event.chat_id))
@@ -86,7 +86,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 await event.client(functions.contacts.BlockRequest(chat.id))
 
     @command(pattern="^.disapprove ?(.*)")
-    async def approve_p_m(event):
+    async def approve_pm(event):
         if event.fwd_from:
             return
         replied_user = await event.client(GetFullUserRequest(event.chat_id))
@@ -107,7 +107,7 @@ if Var.PRIVATE_GROUP_ID is not None:
     
 
     @command(pattern="^.listapproved")
-    async def approve_p_m(event):
+    async def approve_pm(event):
         if event.fwd_from:
             return
         approved_users = pmpermit_sql.get_all_approved()
