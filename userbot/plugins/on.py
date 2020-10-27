@@ -19,8 +19,6 @@ pm_caption += "✨**Support group** : [ᴊᴏɪɴ](https://t.me/Raganork_bot_cha
 
 pm_caption += "✨**Developer** :  [@HELLBOY_OP](https://t.me/Hellboy_Pikachu)  \n\n"
 
-pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Raganork_bot_chat)"
-
 @borg.on(admin_cmd(pattern=r"on"))
 async def amireallyalive(yes):
     chat = await yes.get_chat()
