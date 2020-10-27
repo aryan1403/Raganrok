@@ -4,7 +4,7 @@ from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork user"
-PM_IMG = "https://telegra.ph/file/02d3b3c776165c0f7ffbf.jpg"
+PM_IMG = "https://telegra.ph/file/06dd3530fcd6649a4c756.jpg"
 pm_caption = "This is **Raganork userbot !**\n\n"
 
 pm_caption += f"✨Servant of my master \n  : {DEFAULTUSER} \n"
