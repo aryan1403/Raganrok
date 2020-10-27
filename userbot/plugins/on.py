@@ -17,7 +17,7 @@ pm_caption += "✨**Support Channel**   : [ᴊᴏɪɴ](https://t.me/Raganork_Off
 
 pm_caption += "✨**Support group** : [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
-pm_caption += "✨**Developer** :  [@HELLBOY_OP](tg://user?id=1087968824)  \n\n"
+pm_caption += "✨**Developer** :  [@HELLBOY_OP](https://t.me/Hellboy_Pikachu)  \n\n"
 
 pm_caption += " [┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/Raganork_bot_chat)"
 
