@@ -27,5 +27,5 @@ async def amireallyalive(yes):
     await yes.delete()
     """ For .on command, check if I am on(alive) fire or not.  """
     await borg.send_file(yes.chat_id, PM_IMG,caption=pm_caption)
-    await on.delete()
+    await yes.delete()
 
