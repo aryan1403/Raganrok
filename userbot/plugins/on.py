@@ -25,18 +25,24 @@ from telethon.tl.types import ChannelParticipantsAdmins
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork user"
 
 
+ani_interval = 1
+
 
 #Social_distancing
 
-s_random = random.SystemRandom
 
-imgs = ["http://telegra.ph/file/a4ef33e7ce73ae9558330.jpg", "http://telegra.ph/file/fbf8619abb11516420145.jpg", "http://telegra.ph/file/efadde4adf9674be0ea38.jpg", "http://telegra.ph/file/353837fb6dad1a7aa44c0.jpg"]
-    
-    
-    
+file1 = "http://telegra.ph/file/efadde4adf9674be0ea38.jpg"
 
-    
-PM_IMG = s_random.choice(imgs)
+
+file2 = "http://telegra.ph/file/353837fb6dad1a7aa44c0.jpg"
+
+
+file3 = "http://telegra.ph/file/fbf8619abb11516420145.jpg"
+
+
+file4 = "http://telegra.ph/file/e0df8ad07c2586b61bad7.jpg"
+
+
 
 
 
@@ -78,5 +84,13 @@ async def amireallyalive(yes):
     chat = await yes.get_chat()
     await yes.delete()
     """ For .on command, check if I am on(alive) fire or not.  """
-    await borg.send_file(yes.chat_id, PM_IMG,caption=pm_caption)
-    await alive.delete()
+    aluve = await borg.send_file(event.chat_id, idk, file=file1,caption=pm_caption)
+
+    await asyncio.sleep(ani_interval)
+    ok = await borg.edit_message(event.chat_id, aluve, file=file2) 
+
+    await asyncio.sleep(ani_interval)
+    ok2 = await borg.edit_message(event.chat_id, ok, file=file3)
+
+    await asyncio.sleep(ani_interval)
+    await borg.edit_message(event.chat_id, ok2, file=file4)
