@@ -1,3 +1,7 @@
+#BY SIPAKISKING
+#BY @NOOB_GUY_OP actually thought for Dark Cobra
+
+
 import asyncio
 
 
