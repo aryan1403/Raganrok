@@ -97,5 +97,17 @@ async def amireallyalive(yes):
     ok2 = await borg.edit_message(yes.chat_id, ok, file=file3)
 
     await asyncio.sleep(ani_interval)
-    await borg.edit_message(yes.chat_id, ok2, file=file4)
+    ok3 = await borg.edit_message(yes.chat_id, ok2, file=file1)
+    
+    await asyncio.sleep(ani_interval)
+    ok4 = await borg.edit_message(yes.chat_id, ok3, file=file3)
+    
+    await asyncio.sleep(ani_interval)
+    ok5 = await borg.edit_message(yes.chat_id, ok4, file=file2)
+    
+    await asyncio.sleep(ani_interval)
+    ok6 = await borg.edit_message(yes.chat_id, ok5, file=file1)
+    
+    await asyncio.sleep(ani_interval)
+    ok7 = await borg.edit_message(yes.chat_id, ok6, file=file4)
     await yes.delete()
