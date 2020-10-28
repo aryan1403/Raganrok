@@ -88,7 +88,7 @@ async def amireallyalive(yes):
     chat = await yes.get_chat()
     
     """ For .on command, check if I am on(alive) fire or not.  """
-    aluve = await borg.send_file(yes.chat_id, idk, file=file1,caption=pm_caption)
+    aluve = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
     await asyncio.sleep(ani_interval)
     ok = await borg.edit_message(yes.chat_id, aluve, file=file2) 
