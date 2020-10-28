@@ -30,7 +30,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork user"
 
 
 
-ani_interval = 5
+ani_interval = 3
 
 
 
