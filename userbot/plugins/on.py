@@ -76,7 +76,7 @@ pm_caption += "✨**Support Channel**   : [ᴊᴏɪɴ](https://t.me/Raganork_Off
 pm_caption += "✨**Support group** : [ᴊᴏɪɴ](https://t.me/Raganork_bot_chat)\n"
 
 
-pm_caption += "✨**Developer** :  [@HELLBOY_OP](https://t.me/Hellboy_Pikachu)  \n\n"
+pm_caption += "✨**Developer** :  [Extremis_OP](https://t.me/Extremis_OP)  \n\n"
 
 
 
