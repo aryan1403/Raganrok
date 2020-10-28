@@ -86,7 +86,7 @@ pm_caption += "✨**Developer** :  [@HELLBOY_OP](https://t.me/Hellboy_Pikachu)  
 @borg.on(admin_cmd(pattern=r"on"))
 async def amireallyalive(yes):
     chat = await yes.get_chat()
-    await yes.delete()
+    
     """ For .on command, check if I am on(alive) fire or not.  """
     aluve = await borg.send_file(yes.chat_id, idk, file=file1,caption=pm_caption)
 
@@ -98,3 +98,4 @@ async def amireallyalive(yes):
 
     await asyncio.sleep(ani_interval)
     await borg.edit_message(yes.chat_id, ok2, file=file4)
+    await yes.delete()
