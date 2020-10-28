@@ -28,15 +28,15 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Raganork user"
 
 #Social_distancing
 
+s_random = random.SystemRandom
 
-
-IMGS = ["http://telegra.ph/file/a4ef33e7ce73ae9558330.jpg", "http://telegra.ph/file/fbf8619abb11516420145.jpg", "http://telegra.ph/file/efadde4adf9674be0ea38.jpg", "http://telegra.ph/file/353837fb6dad1a7aa44c0.jpg"]
+imgs = ["http://telegra.ph/file/a4ef33e7ce73ae9558330.jpg", "http://telegra.ph/file/fbf8619abb11516420145.jpg", "http://telegra.ph/file/efadde4adf9674be0ea38.jpg", "http://telegra.ph/file/353837fb6dad1a7aa44c0.jpg"]
     
     
     
 
     
-PM_IMG = random.choice(IMGS)
+PM_IMG = s_random.choice(imgs)
 
 
 
