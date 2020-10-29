@@ -17,7 +17,8 @@ BIO_MSG = Config.ALIVE_PHOTTO
 if BIO_MSG is None:
   BIO_MSG = "I am a pro @Raganork_Official"
 
-DEL_TIME_OUT = 60
+DEL_TIME_OUT = 50
+
 
 
 @borg.on(admin_cmd(pattern="autobio"))  # pylint:disable=E0602
