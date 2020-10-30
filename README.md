@@ -21,9 +21,9 @@ Just click on the above button which will direct you to the deployment page of h
 
 # Generate String Session From Below Links:-
 
-### [String #1](https://Hellbot.hellboyop.repl.run)
+### [String #1](https://extrasmallflakyactiveserverpages.hellboy1403.repl.run)
 
-### [String #2](https://Hellbot2.hellboyop.repl.run)
+### [String #2](https://extrasmallflakyactiveserverpages.hellboy1403.repl.run)
 
 ### Inspired by team #Cobra (Dark Cobra userbot..❤)
 
