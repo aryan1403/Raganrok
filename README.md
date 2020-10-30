@@ -11,6 +11,11 @@ This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https:/
 ### [Join Here For Any Query](https://t.me/Raganrok_official)
 
 # FORK AT YOUR OWN RISK
+
+### 𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐓𝐇𝐄 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐒𝐓𝐀𝐑𝐓𝐔𝐏 𝐀𝐍 𝐀𝐈 𝐆𝐔𝐈𝐃𝐄 👇🏻
+
+### [![](https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif)](https://spectacularpointedjavascript.hellboy1403.repl.run)
+
 ## Installing
 
 ### The Easy Way
