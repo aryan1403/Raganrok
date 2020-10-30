@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/HellBoy-Aaryan/Raganrok/,
-  "website": "https://github.com/HellBoy-Aaryan/Raganrok/,
-  "success_url": "https://t.me/Raganork_Official
+  "repository": "https://github.com/HellBoy-Aaryan/Raganrok/",
+  "website": "https://github.com/HellBoy-Aaryan/Raganrok/",
+  "success_url": "https://t.me/Raganork_Official",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
