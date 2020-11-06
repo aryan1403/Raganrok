@@ -38,7 +38,7 @@ ani_interval = 3
 
 
 
-file1 = "http://telegra.ph/file/efadde4adf9674be0ea38.jpg"
+file1 = "https://telegra.ph/file/976532fcbd29b46877248.jpg"
 
 
 file2 = "http://telegra.ph/file/353837fb6dad1a7aa44c0.jpg"
