@@ -59,7 +59,7 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
-      "value": "1694275"
+      "value": ""
     },
     "REM_BG_API_KEY": {
       "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
@@ -78,27 +78,27 @@
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
-      "value": "de8ea525e4292cc0d700fb564c0a5cba"
+      "value": ""
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001316901170"
+      "value": ""
     },
     "PRIVATE_GROUP_BOT_API_ID": {
       "description": "create a private channel and then type .get_id add that value here for save messages",
-      "value": "-1001316901170"
+      "value": ""
     },
     "PRIVATE_GROUP_ID": {
       "description": "Create a private group add rose bot then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
-      "value": "-1001316901170"
+      "value": ""
     },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": "-1001316901170"
+       "value": ""
     }, 
     "STRING_SESSION": {
       "description": "Get this value by running https://Hellbot.hellboyop.repl.run/ ",
-      "value": "BQA1qsFbvPSWJoMkjSolhgAXnKBOUECvaRwTketeOvDCyL2Cs7YS8I582GkXKh1jK1WLdMz3HDPnqYWDWarftMX9INnw2JiKvmmDMepjybKx_egMoImcUbpPEBo_wNohV48M_4goD-1cYcAQZiTmvmQcfx8IAe71XBSQ4AdYIC40U3jW9A5M-Z6HyvIn56Qt1cZm5HOjB7Oq2kyYtQpqyYfTkDWHsRV9g5A9IpsygzzUcISVlKkPJ5drc4pcBlR40aTVW8q3plIPMiOfop8g44naHiSTscDLDsAr-Qfll2voh08W07kP-25aqWVHne1lL1OllMTwFKbBDgtCIhNDcUDYV6BW5gA"
+      "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
       "description": "Your Github Access Token for gitcommit plugin.Google 'Github access token' to find.",
@@ -112,7 +112,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "1694275",
+      "value": "",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -122,7 +122,7 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
-      "value": "1535983085:AAFYlrl2cpLf3jEmaxiH2qZ7tmkQJZcXAEs"
+      "value": ""
     },
     "CHROME_BIN": {
       "description": "For Carbon.py. Leave as it is. ",
@@ -136,7 +136,7 @@
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
-      "value": "@jkhfgjhfjkhfdgbot"
+      "value": ""
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
       "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
