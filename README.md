@@ -1,14 +1,14 @@
 # †hê Ɽǟɢǟռօʀӄɮð†
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https://t.me/HELLBOY_OP) Also join support channel and group :- https://t.me/Raganrok_Official Enjoy Your Bot!!💝
+This is the one and only official Raganrok Userbot made by [@HELLBOY_OP](https://t.me/Hellion_OP) Also join support channel and group :- https://t.me/Raganrok_Official Enjoy Your Bot!!💝
 
 
 # The owner would not be responsible for any kind of bans due to the bot...
 
 
 # For any query:-
-### [Join Here For Any Query](https://t.me/Raganrok_official)
+### [Join Here For Any Query](https://t.me/Hellion_OP)
 
 # FORK AT YOUR OWN RISK
 
