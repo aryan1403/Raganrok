@@ -1,7 +1,7 @@
 # †hê Ɽǟɢǟռօʀӄɮð†
 This is a userbot made for telegram. I made this userbot with help of all other userbots available in telegram. All credits goes to its Respective Owners....
 
-This is the one and only official Raganrok Userbot made by [@itsvani0](https://t.me/Hellion_OP) Also join support channel and group :- https://t.me/Raganrok_Official Enjoy Your Bot!!💝
+This is the one and only official Raganrok Userbot made by [Hellboy-Aaryan](https://t.me/itsvani0) Also join support channel and group :- https://t.me/Raganrok_Official Enjoy Your Bot!!💝
 
 
 # The owner would not be responsible for any kind of bans due to the bot...
