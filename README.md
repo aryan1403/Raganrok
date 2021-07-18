@@ -14,7 +14,7 @@ This is the one and only official Raganrok Userbot made by [Hellboy-Aaryan](http
 
 ### 𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐓𝐇𝐄 𝐁𝐄𝐋𝐎𝐖 𝐈𝐌𝐀𝐆𝐄 𝐓𝐎 𝐒𝐓𝐀𝐑𝐓𝐔𝐏 𝐀𝐍 𝐀𝐈 𝐆𝐔𝐈𝐃𝐄 👇🏻
 
-### [![](https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif)](https://spectacularpointedjavascript.hellboy1403.repl.run)
+### [![](https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif)](https://replit.com/@hellboy1403/DCAI-5#run.java)
 
 ## Installing
 
