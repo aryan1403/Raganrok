@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/HellBoy-Aaryan/Raganrok/",
-  "website": "https://github.com/HellBoy-Aaryan/Raganrok/",
+  "repository": "https://github.com/aryan1403/Raganrok/",
+  "website": "https://github.com/aryan1403/Raganrok/",
   "success_url": "https://t.me/Raganork_Official",
   "env": {
     "ENV": {
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Hellion_OP.",
+      "description": "Fill your Full name or Username like @aryan1403.",
       "value": "",
       "required": false
     },
